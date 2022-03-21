@@ -1,0 +1,32 @@
+#conteneur 
+{
+	display : flex;
+	flex-wrap : wrap;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.element 
+{
+heigh : 200px;
+width : 150px
+}
+
+.element:nth-child(1)
+{
+	background-color: red;
+	color : red;
+}
+
+.element:nth-child(2)
+{
+	background-color: skyblue;
+	color : red;
+}
+
+.element:nth-child(3)
+{
+	background-color: seagreen;
+	color : red;
+}

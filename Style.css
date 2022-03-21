@@ -1,0 +1,41 @@
+h1 
+{
+	color : red;
+	size: 3em;
+}
+
+.image1 
+{
+text-align: center;
+}
+
+.ul1
+{
+	border-width: 0.25em;
+	border-style: solid;
+	border-color: red;
+	border-radius: 20px/10px;
+	box-shadow: 6px 6px 3px black;
+
+}
+
+@font-face {
+    font-family: 'KaushanScript';
+    src: url('KaushanScript-Regular.otf');
+}
+
+p
+{
+font-family: 'KaushanScript';
+font-size: 1em;
+}
+
+aside
+{
+border-width: 0.25em;
+border-style: solide;
+border-color: brown;
+border-radius: 20px/10px;
+display: inline-block;
+vertical-align: top
+}
